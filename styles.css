@@ -8,7 +8,7 @@ line-height: 1.6;
 }
 
 header {
-background-color: #4CAF50;
+background-color: pink;
 color: white;
 padding: 20px;
 text-align: center;
@@ -16,6 +16,18 @@ text-align: center;
 
 header h1 {
 margin: 0;
+}
+
+header .navbar-logo {
+    padding-top: 5%;
+    color: palevioletred;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: xx-large;
+    font-family: var(--font-02);
+
+    text-shadow: .5px .5px 3px pink;
+    transition: .4s ease;
 }
 
 nav a:hover {

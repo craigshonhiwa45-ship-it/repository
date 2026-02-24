@@ -15,33 +15,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
-header {
-    position: absolute;
-    height: 86px;
-    width: 100%;
-    padding-top: 2%;
-    padding-left: 2%;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #1a1a1a;
-
-}
-
-nav ul li {
-    width: 100%;
-    padding-bottom: 5px;
-    margin-top: 0s;
-}
-
-nav ul {
-    justify-self: end;
-    padding-bottom: 2px;
-      position: absolute;
+body {
+    background-color: gray;
 }
 
 header .navbar-logo {
-    padding-top: 5%;
+    padding: 4% 8% 2% 8%;
     color: palevioletred;
     text-decoration: none;
     font-weight: 400;
@@ -55,36 +34,18 @@ header .navbar-logo {
 
 header .navbar-logo:hover {
     transform: scale(2.2);
-   
-}
-
-header ul li{
-    padding-bottom: 20px;
 
 }
 
-.navbar ul li{
-    list-style: none;
-    display: inline;
-}
-
-.navbar ul {
-    padding-right: 40px;
-    position: relative;
-    
-}
-
-header ul li a {
+.navbar ul li a{
     font-size: 1.1em;
-    padding: 20px 25px;
      text-decoration: none;
      color: white;
-     justify-content: space-between;
     font-weight: 500;
     transition: all .4s ease;
 }
 
-header ul li a:hover {
+.navbar ul li a:hover {
     color: pink;
 }
 
@@ -98,37 +59,15 @@ footer {
 .sectionFirst .FrontPage{
     height: inherit;
     height: 100vh;
-    padding-top: 100px;
-    display: flex;
-    flex-direction: column;
-    align-content: baseline;
-    gap: 2em;
-    max-width: 60%;
+    padding-top: 20px;
+    padding-left: 20px;
+
 }
 
-.sectionFirst::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: lightslategray;
-    z-index: -1;
-    opacity: .7;
-}
-
-.sectionFirst::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: lightslategray;
-    background-image: url(Image\ \(3\).jfif);
-    z-index: -1;
-    opacity: .7;
+.sectionFirst .FrontPage .btn a:nth-child(1) {
+    border: 1px solid rgb(223, 30, 62);
+    background-color: rgb(223, 30, 62); 
+    color: white;
 }
 
 .sectionFirst .address {
@@ -137,7 +76,6 @@ footer {
     line-height: 1.2em;
     font-size: 24px;
 }
-
 .sectionFirst .FrontPage h2 {
     font-size: 3.24em;
     font-family: var(--font-01);
@@ -156,32 +94,6 @@ footer {
     text-decoration: none;
 }
 
-.sectionFirst .FrontPage .btn a:nth-child(1) {
-    border: 1px solid rgb(223, 30, 62);
-    background-color: rgb(223, 30, 62); 
-    color: white;
-}
-
-.two-column {
-    display: flex;
-    gap: 20px;
-}
-
-.sidebar {
-    background-color: #eee;
-    padding: 15px;
-    border-radius: 8px;
-    border: 3px solid #1a1a1a;
-    width: 20%;
-    margin-top: 70px;
-    background-color: pink;
-}
-
-.sidebar ul{
-    list-style: none;
-    text-align: left;
-}
-
 .sectionSecond {
 padding: 0 2%;
 display: grid;
@@ -193,7 +105,6 @@ background-image: url(Image\ \(3\).jfif);
 .sectionSecond .textinfo {
     grid-column-start: 2;
     grid-row-start: 1;
-    margin-top: 100px;
 }
 
 .sectionSecond .fourimg{
@@ -203,7 +114,7 @@ background-image: url(Image\ \(3\).jfif);
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
     padding: 4rem 1rem 12rem;
-    margin-top: 70px;
+    
 }
 
 .sectionSecond .fourimg img{
@@ -322,7 +233,15 @@ background-image: url(Image\ \(3\).jfif);
     margin-bottom: 10px;
 }
 
-    
+.aboutpara {
+    max-width: 60%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+}
+
    
 
 

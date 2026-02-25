@@ -1,22 +1,13 @@
-
-@import url('https://fonts.googleapis,com/css2?family=Montserrat&family=Open+Sans&family=Philosopher&family=Poppins:wght@300&display=swap');
-
-
-@font-face {
-  font-family: myFont; /* set name */
-  src: url(sansation_light.woff)
-
-}
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 body {
     background-color: gray;
+    font-family: "Nunito", sans-serif;
 }
 
 header .navbar-logo {
@@ -25,8 +16,6 @@ header .navbar-logo {
     text-decoration: none;
     font-weight: 400;
     font-size: xx-large;
-    font-family: var(--font-02);
-
     text-shadow: .5px .5px 3px pink;
     transition: .4s ease;
 }
@@ -72,13 +61,11 @@ footer {
 
 .sectionFirst .address {
     color: rgb(233, 51, 81);
-    font-family: var(--font-02);
     line-height: 1.2em;
     font-size: 24px;
 }
 .sectionFirst .FrontPage h2 {
     font-size: 3.24em;
-    font-family: var(--font-01);
     font-weight: 400;
     color: white;
 }
@@ -136,7 +123,6 @@ background-image: url(Image\ \(3\).jfif);
 .sectionSecond .textinfo .greet {
     grid-column: 2/2;
     color: lightcoral;
-    font-family: var(--font-02);
     font-size: 1.5em;
     line-height: 1.2em;
     margin-top: 90px;
@@ -145,7 +131,6 @@ background-image: url(Image\ \(3\).jfif);
 .sectionSecond .textinfo .title {
     font-size: 2.5em;
     font-weight: 400;
-    font-family: var(--font-02);
 }
 
 .sectionSecond .textinfo .btn {
@@ -157,7 +142,6 @@ background-image: url(Image\ \(3\).jfif);
     background-color: rgb(248, 10, 89);
     color: white;
     font-weight: 300;
-    font-family: 'Poppins', sans-serif;
     transition: all .4s ease;
 }
 
@@ -170,7 +154,6 @@ background-image: url(Image\ \(3\).jfif);
     background-color: rgb(248, 10, 89);
     color: white;
     font-weight: 300;
-    font-family: 'Poppins', sans-serif;
     transition: all .4s ease;
     padding: 10px;
     
@@ -191,7 +174,6 @@ background-image: url(Image\ \(3\).jfif);
 
 .sectionThird h2 {
     font-size: 2.5rem;
-    font-family: var(--font-02);
     color: white;
     text-align: center;
 }
@@ -218,7 +200,6 @@ background-image: url(Image\ \(3\).jfif);
 }
 
 .sectionThird .servicebox .box h2 {
-    font-family: var(--font-02);
     line-height: 1.2rem;
     font-size: 1.5rem;
     color: #1a1a1a;
@@ -226,7 +207,6 @@ background-image: url(Image\ \(3\).jfif);
 }
 
 .sectionThird h2 {
-    font-family: var(--font-02);
     line-height: 1.2rem;
     font-size: 1.5rem;
     color: #1a1a1a;

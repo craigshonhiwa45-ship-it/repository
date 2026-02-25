@@ -15,7 +15,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {
+@media (max-width: 600px) {
+    body {
     background-color: gray;
 }
 
@@ -117,7 +118,6 @@ background-image: url(Image\ \(3\).jfif);
     
 }
 
-@media (max-width: 600px) {
     .sectionSecond .fourimg {
         grid-template-columns: repeat(2, 1fr);
         padding: 2rem 1rem 6rem;

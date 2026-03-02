@@ -146,15 +146,16 @@ background-image: url(Image\ \(3\).jfif);
 }
 
 .sectionSecond .btn {
-     border: 1px solid rgb(236, 77, 130);
+    border: 1px solid rgb(236, 77, 130);
     width: fit-content;
     border-radius: 7px;
-    padding: 7px 60px;
+    height: fit-content;
     text-decoration: none;
     background-color: rgb(248, 10, 89);
     color: white;
     font-weight: 300;
     transition: all .4s ease;
+    padding: 10px;
     
 }
 
